@@ -3,3 +3,10 @@ h1 {
     font-size: 40px;
     color: lightslategray;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

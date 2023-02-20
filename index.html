@@ -10,11 +10,23 @@
 
     <body>
         <h1>Hello Forms!</h1>
-        <form action="https://handlers.education.launchcode.org/request-parrot" method="POST">
-            <label>My Username: <input type="text" name="username"></label><br>
-            
-            <label>My Cool Fruit Animal Team Name: <input type="text" name="team"></label><br>
-            <input type="submit" value="Achtung, Baby!">
-        </form>
+        <div id="formStuff">
+            <form id="teamForm" action="https://handlers.education.launchcode.org/request-parrot" method="POST">
+                <label>My Username: <input type="text" name="username"></label><br>
+                
+                <label>My Cool Fruit Animal Team Name: <input type="text" name="team"></label><br>
+                <input id="letsGo" type="submit" value="Achtung, Baby!">
+            </form>
+        </div>
+
+
+
+
+
+
+        
+        <div id="noPeeking" style="visibility:hidden">
+            <img src="https://i.imgur.com/vc19FDC.gif" alt="You dun hecked up" class="center">
+        </div>
     </body>
 </html>
